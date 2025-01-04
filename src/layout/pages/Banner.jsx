@@ -9,7 +9,7 @@ export default function Banner() {
             interactive realities <br />
             through <span className="text-orange-500">Web design</span>
           </h1>
-          <p className="pb-6">
+          <p className="lg:pb-6">
             I am Yaisin, a Web Developer. Lorem ipsum dolor sit amet consectetur.
             <br /> Lorem ipsum dolor sit.
           </p>
@@ -25,7 +25,7 @@ export default function Banner() {
         </div>
   
         {/* Right Section */}
-        <div className="flex justify-center relative z-30 mt-8 lg:mt-0">
+        <div className="flex justify-center relative z-30 mt-14 lg:mt-0">
           <div className="absolute bg-slate-400 w-64 sm:w-80 lg:w-96 h-[270px] sm:h-[300px] lg:h-[335px] z-10 bottom-0 rounded-t-lg overflow-hidden">
             <div className="relative">
               <div className="absolute w-full h-8 bg-gray-500 top-0 left-0">
@@ -45,9 +45,9 @@ export default function Banner() {
           />
         </div>
       </div>
-      <div className="relative">
+      {/* <div className="relative">
           <div className="w-20 h-20 bg-orange-500 rounded-full hover:bg-orange-600 absolute top-0 left-0">Yaisin</div>
-      </div>
+      </div> */}
      </div>
     );
   }

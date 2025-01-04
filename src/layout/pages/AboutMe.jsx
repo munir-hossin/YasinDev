@@ -5,26 +5,30 @@ export default function AboutMe () {
       <section className="py-16 bg-gray-50 text-center px-20">
         <div className="container mx-auto flex flex-col md:flex-row items-center">
           <div className="md:w-1/2">
-      
-        <div className="flex justify-center relative z-30">
-          <div className="absolute bg-orange-300 w-80 h-[335px] z-20 bottom-0">
-            <div className="relative">
-              <div className="absolute h-[335px] border-2 border-orange-600 w-full top-1 left-1 z-[-1]"></div>
-            </div>
-          </div>
+
+        <div className="relative flex justify-center">
+          {/* <!-- Image on top --> */}
           <img
             src="https://i.ibb.co/vLm1Qzg/banner-avatar.png"
             alt="Banner img"
-            className="z-20"
+            className="relative z-30"
           />
-        </div>
+          {/* <!-- Background section --> */}
+            <div className="relative">
+          
+            <div className="absolute border-[2px] border-red-500 w-72 bottom-[-10px] right-[-15px]  lg:w-80 h-[335px] rounded-xl md:bottom-[-12px] md:right-[-22px] z-10"></div>
+            </div>
+            <div className="absolute rounded-xl bg-orange-300 w-[100%] lg:w-80 h-[335px] z-20 bottom-0"></div>
+
+</div>
+
 
 
 
 
           </div>
           <div className="md:w-1/2 text-left px-8">
-            <h3 className="text-orange-500 uppercase text-sm font-bold">
+            <h3 className="text-orange-500 uppercase text-sm font-bold mt-8">
               A Bit About Me
             </h3>
             <h2 className="text-4xl font-semibold my-4">

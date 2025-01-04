@@ -22,7 +22,6 @@ export default function Portfolio () {
   <div className="border border-gray-300 p-4 rounded-lg hover:shadow-lg transition-shadow lg:col-span-4">
     <div className="w-full ">
       <img 
-        // src="https://i.ibb.co.com/7KSPGqb/11.png" 
         src="https://i.ibb.co.com/7KSPGqb/11.png"
         alt="img" 
         className="w-full h-full object-cover "
@@ -52,7 +51,7 @@ export default function Portfolio () {
 
 
      {/* underside */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 mt-8">
         <div className="border border-gray-300 p-4 rounded-lg hover:shadow-lg transition-shadow">
               <img src="https://i.ibb.co.com/7KSPGqb/11.png" alt="img" className="w-full mb-4" />
               <h3 className="text-lg font-medium text-center">

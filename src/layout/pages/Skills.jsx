@@ -1,6 +1,6 @@
 export default function Skills() {
   const skills = [
-    { name: 'JavaScript', percentage: 95 },
+    { name: 'JavaScript', percentage: 95},
     { name: 'Python', percentage: 90 },
     { name: 'Flutter', percentage: 85 },
     { name: 'Teamwork', percentage: 90 },
