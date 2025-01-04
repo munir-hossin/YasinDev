@@ -1,17 +1,10 @@
 
 
 export default function Portfolio () {
-    const works = [
-      { title: "E-commerce website design", image: "https://i.ibb.co.com/7KSPGqb/11.png" },
-      { title: "E-commerce website design", image: "https://i.ibb.co.com/7KSPGqb/11.png" },
-      { title: "E-commerce website design", image: "https://i.ibb.co.com/7KSPGqb/11.png" },
-      { title: "E-commerce website design", image: "https://i.ibb.co.com/7KSPGqb/11.png" },
-      { title: "E-commerce website design", image: "https://i.ibb.co.com/7KSPGqb/11.png" },
-      { title: "E-commerce website design", image: "https://i.ibb.co.com/7KSPGqb/11.png" },
-    ];
+   
   
     return (
-      <section className="py-12">
+      <section className=" sm:py-12">
         <h2 className="text-center text-3xl font-semibold mb-8">
           My Recent Works
         </h2>
